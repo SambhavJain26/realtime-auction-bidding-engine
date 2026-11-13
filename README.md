@@ -1,6 +1,5 @@
 # Real-Time Auction & Live Bidding Engine
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node.js: 18+](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
 [![Express: 4.x](https://img.shields.io/badge/Express-4.x-lightgrey.svg)](https://expressjs.com/)
 [![WebSockets: Socket.IO](https://img.shields.io/badge/WebSockets-Socket.IO%204.x-black.svg)](https://socket.io/)
@@ -263,6 +262,7 @@ The platform includes pre-seeded credentials for instant evaluation:
 
 ---
 
-## License
+## Authorship & Project Metadata
 
-This project is licensed under the MIT License: see the [LICENSE](LICENSE) file for details.
+- **Lead Systems Architect**: Sambhav Jain
+- **Project Domain**: Real-Time Event Streaming & Auction Infrastructure

@@ -23,7 +23,7 @@ The **Online Auction System** replicates the fast-paced, high-stakes environment
 
 ### Key Engineering Highlights
 
-- **Low-Latency Bid Broadcasting**: Sub-25ms event delivery powered by Socket.IO WebSockets across dedicated league namespaces (`/host/:league` and `/users/:league`).
+- **Low-Latency Bid Broadcasting**: Real-time event delivery powered by Socket.IO WebSockets across dedicated league namespaces (`/host/:league` and `/users/:league`).
 - **Distributed State Synchronization**: Centralized authoritative countdown timer with automatic reset upon incoming bids and unanimous pass detection.
 - **Role-Based Access Control**: Strict segregation between League Auctioneers (Hosts) and Team Franchises (Users) enforced by JWT cookies and salted bcrypt password hashing.
 - **Roster & Budget Management**: Atomic balance verification preventing franchises from over-bidding beyond their league allocations.

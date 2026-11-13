@@ -16,13 +16,13 @@
 
 ## Executive Summary & Impact
 
-The **Online Auction System** is an end-to-end, low-latency sports auction platform engineered to digitize collegiate and professional athletic drafts. By replacing error-prone manual spreadsheets and paper bidding paddles with an authoritative WebSocket engine, the system delivers sub-25ms event distribution across concurrent team franchises, completely eliminating race conditions, clock drift, and roster allocation disputes.
+The **Online Auction System** is an end-to-end, low-latency sports auction platform engineered to digitize collegiate and professional athletic drafts. By replacing error-prone manual spreadsheets and paper bidding paddles with an authoritative WebSocket engine, the system delivers instant, real-time event distribution across concurrent team franchises, completely eliminating race conditions, clock drift, and roster allocation disputes.
 
 ```
 +-------------------------------------------------------------------------------+
 |                                KEY OUTCOMES                                   |
 +-------------------------------------------------------------------------------+
-|  [01] Sub-25ms WebSocket Event Latency across concurrent franchise bidders   |
+|  [01] Real-Time WebSocket Event Delivery across concurrent franchise bidders   |
 |  [02] 100% Elimination of Clock Drift via Authoritative Centralized Timer    |
 |  [03] Zero Race Conditions in Concurrent Bids through Atomic State Engine     |
 +-------------------------------------------------------------------------------+
@@ -171,4 +171,4 @@ When the 10-second timer reaches zero without a competing bid, the server invoke
 
 ## Conclusion & Key Takeaways
 
-The **Online Auction System** demonstrates how modern event-driven architectures transform traditional, manual processes into streamlined digital operations. By combining authoritative WebSocket synchronization with strict role-based controls and resilient persistence fallbacks, the system delivers sub-25ms responsiveness, deterministic state integrity, and a professional-grade user experience for competitive sports leagues.
+The **Online Auction System** demonstrates how modern event-driven architectures transform traditional, manual processes into streamlined digital operations. By combining authoritative WebSocket synchronization with strict role-based controls and resilient persistence fallbacks, the system delivers real-time responsiveness, deterministic state integrity, and a professional-grade user experience for competitive sports leagues.

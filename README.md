@@ -172,7 +172,7 @@ Online-Auction-System/
 ├── run.sh                      # 1-command startup script for Linux/macOS
 ├── .env.example                # Sanitized environment template
 ├── CASE_STUDY.md               # Portfolio engineering case study
-├── AGENTS.md                   # Technical guidelines & architecture constraints
+├── LICENSE                     # MIT License
 ├── app.js                      # Application entrypoint & Socket.IO namespace router
 └── package.json                # Project dependencies & operational scripts
 ```
